@@ -1,0 +1,5 @@
+[workspace]
+members = ["loader", "kernel"]
+
+[workspace.package]
+authors = ["Emmy <emm218@proton.me>"]

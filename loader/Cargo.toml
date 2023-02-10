@@ -1,0 +1,13 @@
+cargo-features = ["per-package-target"]
+
+[package]
+name = "loader"
+version = "0.1.0"
+edition = "2021"
+authors.workspace = true
+forced-target = "aarch64-unknown-uefi"
+
+[dependencies]
+log = "0.4"
+uefi = "0.19"
+uefi-services = "0.16"

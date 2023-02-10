@@ -1,0 +1,11 @@
+cargo-features = ["per-package-target"]
+
+[package]
+name = "kernel"
+version = "0.1.0"
+edition = "2021"
+authors.workspace = true
+default-target = "aarch64-unknown-none"
+
+[dependencies]
+log = "0.4"
