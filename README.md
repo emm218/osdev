@@ -8,8 +8,8 @@ an auspicious sign
 
 ## Roadmap
 
-1. write a script to generate bootable images from the efi loader and kernel
-   binary that cargo generates
+1. write a script to automate making bootable images from the efi loader and 
+   kernel binary that cargo generates
 2. have the loader get a memory map and pass control to the kernel ASAP
 3. figure out memory layout (64 bit space is so ridiculously large!) and write
    paging
