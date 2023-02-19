@@ -8,11 +8,11 @@ an auspicious sign
 
 ## Requirements
 
-the main project just requires `cargo`
+the main project just requires cargo.
 
 the script for creating images doesn't work perfectly yet but depends on
-[`mtools`](https://www.gnu.org/software/mtools/) and 
-[`jq`](https://stedolan.github.io/jq/) which should hopefully be packaged by
+[mtools](https://www.gnu.org/software/mtools/) and 
+[jq](https://stedolan.github.io/jq/) which should hopefully be packaged by
 your distro.
 
 ## Roadmap
