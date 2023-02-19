@@ -6,10 +6,19 @@ already its gotten farther than my last 2
 
 an auspicious sign
 
+## Requirements
+
+the main project just requires `cargo`
+
+the script for creating images doesn't work perfectly yet but depends on
+[`mtools`](https://www.gnu.org/software/mtools/) and 
+[`jq`](https://stedolan.github.io/jq/) which should hopefully be packaged by
+your distro.
+
 ## Roadmap
 
-1. write a script to automate making bootable images from the efi loader and 
-   kernel binary that cargo generates
+1. write a script to generate bootable images from the efi loader and kernel
+   binary that cargo generates *update: we're getting there*
 2. have the loader get a memory map and pass control to the kernel ASAP
 3. figure out memory layout (64 bit space is so ridiculously large!) and write
    paging
